@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "pangubase",
+    "name": "Pangu Base",
+    "description": "Pangu base.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "https://mccraft.cn/project/pangu_base",
+    "updateUrl": "",
+    "authorList": [
+      "Mouse0w0"
+    ],
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": ["pangu"]
+  }
+]
