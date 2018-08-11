@@ -16,7 +16,7 @@ public class WorldGenListener {
 
     private final WorldGenerator WORLD_GEN_COPPER_ORE = new PGWorldGenMinable(12, 64, 16, 8, PBasicBlocks.COPPER_ORE.getDefaultState());
     private final WorldGenerator WORLD_GEN_TIN_ORE = new PGWorldGenMinable(8, 64, 16, 8, PBasicBlocks.TIN_ORE.getDefaultState());
-    private final WorldGenerator WORLD_GEN_SILVER_ORE = new PGWorldGenMinable(4, 32, 16, 8, PBasicBlocks.SILVER_ORE.getDefaultState());
+    private final WorldGenerator WORLD_GEN_SILVER_ORE = new PGWorldGenMinable(4, 32, 16, 4, PBasicBlocks.SILVER_ORE.getDefaultState());
 
     @Load
     public static void initWorldGenListener() {
